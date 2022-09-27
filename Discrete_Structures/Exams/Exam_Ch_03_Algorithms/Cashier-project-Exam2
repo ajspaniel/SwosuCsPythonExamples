@@ -1,0 +1,49 @@
+import random 
+change_due = random.randint(100,600)
+print(f'intial change due is: {change_due}.')
+
+dollars_due = change_due //100
+print(f'the number of dollars we give back is: {dollars_due}.')
+
+change_due = change_due % 100
+
+quarters_due = change_due // 25
+print(f'the number of quarters we give back is: {quarters_due}.')
+
+change_due = change_due % 25
+
+dimes_due = change_due // 10
+print(f'the number of dimes we give back is: {dimes_due}.')
+
+change_due = change_due % 10
+
+nickels_due = change_due // 5
+print(f'the number of nickels we give back is: {nickels_due}.')
+
+change_due = change_due % 5
+
+pennies_due = change_due
+print(f'the number of pennies we give back is: {pennies_due}.')
+
+#(5 points) A sentence or summary of what the question is asking for
+# The question is asking for us to be able to make change out of a random amount of money. So if someone gave us 139 pennies, we'd be able to give them one dollar, one quarter, one dime, no nickels, and four pennies.
+
+#(5 points) A list of references and resources to help answer the question
+#My main reference would be.... Dr. Evert. As for other resources... coin class in elementary? Nothing else really needed to be used. 
+
+#(5 points) A brief description of general assumptions to help solve the problem, as well as key observations from the references
+#I think a few of my assumptions were that I needed to do numerous if then statements in order to create my code, when in reality, I was just making it more complicated for myself. Cleaning up my code was a definite need.  
+
+#(5 points) Your work showing your path from the question to your solution
+#My first code was scraped entirely due to being far too complicated, and Dr. Evert helped me figure out my path here, by showing me to just add in my print statements between the math, instead of doing all the math,and then having it be printed. 
+
+#(5 points) A justification of your answer that explains why you believe this is the most correct answer
+#I can't quite claim that this is the 'most correct' answer, as, while it is correct, I don't think there's a scale to be used. They're either correct, or they're not. I don't think any answer for this exam can be more correct than another's. 
+
+
+
+
+
+
+
+#bahlegdeh
